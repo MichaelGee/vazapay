@@ -1,0 +1,64 @@
+.banner{
+    background: url("../../assets/hero-bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8rem 0 2rem 2rem;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    .banner__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0;
+        color: white;
+        .banner__text{
+            h1, p{
+                margin: 1.3rem 0;
+            }
+        }
+        .banner__form{
+            display: flex;
+            .banner__form__input{
+              background: white;
+              padding: 0.8rem;
+              border: none;
+              width: 50%;
+              border-radius: 7px;
+              margin-right: 1rem;
+              &:focus {
+                outline: none;
+            }
+            }
+            .banner__form__button{
+                background: $main-purple-button;
+                color: white;
+                padding: 0.5rem 1rem;
+                box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.13);
+            }
+        }
+    }
+    .banner__img{
+        width: 0% !important;
+    }
+}
+
+@include respond(largeScreen){
+  .banner{
+    padding: 8rem 0 0 2rem;
+    .banner__text{
+        padding: 0 6rem;
+    }
+    .banner__img{
+        width: 45% !important;
+        margin-bottom: 0 !important;
+    }
+  }
+  
+    
+  
+}
