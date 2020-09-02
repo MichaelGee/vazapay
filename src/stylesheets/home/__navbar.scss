@@ -1,6 +1,10 @@
 .navbar{
     padding-top: 1rem;
     padding-bottom: 1rem;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    right: 0;
     .navbar-brand{
         font-weight: 800 !important;
         color: white;

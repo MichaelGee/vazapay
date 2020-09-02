@@ -1,0 +1,48 @@
+.services{
+    .services__container{
+        h1{
+            text-align: center;
+            margin-top: 6rem;
+        }
+       .services__main__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 6rem;
+        flex-direction: column;
+        .service{
+            padding: 2rem 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h4{
+                text-align: center;
+                margin: 3rem 0 1rem 0;
+            } 
+            p{
+                text-align: center;
+            }
+           .service__image{
+            background: linear-gradient(180deg, #9A52DF 0%, #5537D3 100%);
+            width: 108px;
+            height: 108px;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           }
+        }
+       }  
+    }
+}
+
+@include respond(largeScreen){
+    .services{
+        .services__container{
+            .services__main__container{
+                flex-direction: row !important;
+            }
+        }
+    }
+}
