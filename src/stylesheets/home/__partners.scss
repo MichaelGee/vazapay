@@ -1,0 +1,33 @@
+.partners{
+    .partners__container{
+        text-align: center;
+        h1{
+            margin: 3rem 0;
+            color: $text-color;
+        }
+        .partners__images{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+           img{
+               width: 15%;
+           }
+        }
+        .partners__button{
+            background: $main-purple-button;
+            color: white;
+            padding: 0.5rem 1rem;
+            box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.13);
+            margin: 3rem 0;
+        }
+    }
+}
+
+@include respond(largeScreen){
+    .partners__images{
+        flex-direction: row !important;
+        img{
+            width: 15% !important;
+        }
+    }
+}

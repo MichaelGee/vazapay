@@ -8,12 +8,12 @@ const Services = () => {
     <div>
       <section className='services'>
         <div className='container services__container'>
-          <h1>Lorem ipsum dolor sitLorem ipsum dolor sit</h1>
+          <h1>Lorem ipsum dolor sit amet consectetur adipiscing</h1>
 
           <div className='services__main__container'>
             <div className='service'>
               <div className='service__image'>
-                <img src={Loyalty} />
+                <img src={Loyalty} alt='loyalty-icon' />
               </div>
               <h4>Loyalty</h4>
               <p>
@@ -23,7 +23,7 @@ const Services = () => {
             </div>
             <div className='service'>
               <div className='service__image'>
-                <img src={Change} />
+                <img src={Change} alt='change-icon' />
               </div>
               <h4>Change Collection</h4>
               <p>
@@ -33,7 +33,7 @@ const Services = () => {
             </div>
             <div className='service'>
               <div className='service__image'>
-                <img src={Transfer} />
+                <img src={Transfer} alt='cash-transfer-icon' />
               </div>
               <h4>Transfer</h4>
               <p>
