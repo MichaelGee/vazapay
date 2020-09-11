@@ -10,7 +10,7 @@ const Banner = () => {
             <h1>Lorem ipsum dolor sit amet, contetur</h1>
             <p>
               Lorem ipsum dolor sit amet, contetur adipiscing elit. Lorem ipsum
-              dolor sit amet, contetur adipiscing elit.Lorem ipsum dolor sit.
+              dolor sit amet, contetur adipiscing elit. Lorem ipsum dolor sit.
             </p>
             <form className='banner__form'>
               <input
