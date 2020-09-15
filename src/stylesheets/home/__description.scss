@@ -1,5 +1,5 @@
 .description{
-    background: url("../../assets/purple-rect.svg") no-repeat top center/cover;
+    background: #9A52DF;
     position: relative;
     height: 900px;
     padding: 4rem 4rem;
@@ -16,5 +16,11 @@
             color: white;
         }
     }
+    }
+}
+
+@include respond(largeScreen){
+    .description{
+        background: url("../../assets/purple-rect.svg") no-repeat top center/cover;
     }
 }
