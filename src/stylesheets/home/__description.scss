@@ -12,6 +12,15 @@
         display: flex;
         margin: 10rem 6rem 6rem 0;
         align-content: flex-start;
+        .numbers{
+            li{
+                padding: 0.5rem 0.8rem;
+                border-radius: 8px;
+                border: 1px solid white;
+                color: white;
+                margin-bottom: 1rem;
+            }
+        }
         .howto{
             color: white;
         }

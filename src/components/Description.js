@@ -9,9 +9,9 @@ const Description = () => {
           <h1>How it Works</h1>
           <div className='desc__body'>
             <ul className='numbers'>
-              <li className='one'>1</li>
-              <li className='two'>2</li>
-              <li className='three'>3</li>
+              <li className='one'>01</li>
+              <li className='two'>02</li>
+              <li className='three'>03</li>
             </ul>
             <div className='howto'>
               <h3>Register or Login</h3>

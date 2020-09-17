@@ -3,7 +3,6 @@ import Phone from "../assets/phone.png";
 import Appstore from "../assets/app-store.svg";
 import Playstore from "../assets/google-play.svg";
 
-
 const Footer = () => {
   return (
     <div>
