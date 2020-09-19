@@ -17,8 +17,9 @@ const Description = () => {
               <h3>Register or Login</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id nunc
-                etiam sed lacus.Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Id nunc etiam sed lacus.
+                etiam sed lacus. <br />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id nunc
+                etiam sed lacus.
               </p>
             </div>
           </div>

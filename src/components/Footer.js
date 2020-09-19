@@ -23,12 +23,20 @@ const Footer = () => {
               </p>
             </div>
             <div className='footer__appstore__logo'>
-              <img src={Appstore} alt='app-store-bardge' className='appstore' />
-              <img
-                src={Playstore}
-                className='appstore'
-                alt='play-store-bardge'
-              />
+              <a href='#'>
+                <img
+                  src={Appstore}
+                  alt='app-store-bardge'
+                  className='appstore'
+                />
+              </a>
+              <a href='#'>
+                <img
+                  src={Playstore}
+                  className='appstore'
+                  alt='play-store-bardge'
+                />
+              </a>
             </div>
           </div>
           <div className='second__section'>

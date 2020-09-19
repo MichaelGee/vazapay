@@ -2,27 +2,34 @@
     background: #9A52DF;
     position: relative;
     height: 900px;
-    padding: 4rem 4rem;
+    padding: 4rem 4rem !important;
     .description__container{
+        padding: 0 !important;
         h1{
             text-align: center;
             color: white;
+            font-size: 3rem;
+            padding: 4rem;
         }
     .desc__body{
         display: flex;
         margin: 10rem 6rem 6rem 0;
         align-content: flex-start;
         .numbers{
+            margin-right: 1rem;
             li{
                 padding: 0.5rem 0.8rem;
-                border-radius: 8px;
-                border: 1px solid white;
-                color: white;
+                border-radius: 10px;
+                border: 1.5px solid white;
+                color: #E5E5E5;
                 margin-bottom: 1rem;
+                font-weight: 700;
+                font-size: 1.5rem;
             }
         }
         .howto{
             color: white;
+            padding: 2rem 6rem 2rem 0rem; 
         }
     }
     }
