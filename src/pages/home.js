@@ -6,7 +6,6 @@ import Partners from "../components/Partners";
 import Footer from "../components/Footer";
 import PhotoGrid from "../components/PhotoGrid";
 import Description from "../components/Description";
-import Form from "../components/Form";
 
 const Home = () => {
   return (
@@ -16,7 +15,6 @@ const Home = () => {
       <Services />
       <PhotoGrid />
       <Description />
-      <Form />
       <Partners />
       <Footer />
     </div>

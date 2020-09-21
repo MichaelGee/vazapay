@@ -1,4 +1,5 @@
 import React from "react";
+import Form from "./Form";
 // import Rec from "../assets/purple-rect.svg";
 const Description = () => {
   return (
@@ -24,6 +25,7 @@ const Description = () => {
             </div>
           </div>
         </div>
+        <Form />
       </section>
     </div>
   );
