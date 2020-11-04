@@ -1,5 +1,7 @@
 import React from "react";
 import Form from "./Form";
+import Payment from "./Payment";
+import Qr from "./Qr";
 // import Rec from "../assets/purple-rect.svg";
 const Description = () => {
   return (
@@ -25,7 +27,11 @@ const Description = () => {
             </div>
           </div>
         </div>
+        <div className="animation">
         <Form />
+        <Qr/>
+        <Payment/>
+        </div>
       </section>
     </div>
   );

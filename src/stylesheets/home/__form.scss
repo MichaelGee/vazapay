@@ -5,10 +5,11 @@
     padding: 2rem 3rem;
     box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.1);
     font-weight: bold;
-    width: 412px;
+    width: 337px;
     position: absolute;
-    right: 85px;
-    bottom: 12px;
+    right: 110px;
+    bottom: 48px;
+    height: 375px;
     p{
         color: #605f6c;
     }
@@ -17,6 +18,12 @@
   .head__text {
     text-align: left;
     margin-bottom: 1rem;
+    h3{
+      font-size: 1.5rem;
+    }
+    p{
+      font-size: 0.7rem;
+    }
   }
   
   .form__input {
@@ -25,7 +32,7 @@
     position: relative;
   }
   
-  input {
+  input[type="email"], input[type="password"] {
     margin-bottom: 1rem;
     color: #605f6c;
   }
@@ -35,9 +42,10 @@
     width: 100%;
     border: 2px solid #5437d3;
     border-radius: 8px;
-    padding: 15px;
+    padding: 8px;
     transition: 0.3s;
     font-weight: bold;
+    font-size: 0.8rem;
   }
   
   input[type="email"]:focus {
@@ -52,9 +60,10 @@
     width: 100%;
     border: 1px solid #f1eeff;
     border-radius: 8px;
-    padding: 15px;
+    padding: 8px;
     transition: 0.3s;
     font-weight: bold;
+    font-size: 0.8rem;
   }
   
   input[type="password"]:focus {
@@ -67,19 +76,19 @@
   
   .form__input .mail__icon {
     position: absolute;
-    top: 11px;
+    top: 2px;
     left: 0;
     padding: 6px 9px;
   }
   .form__input .lock__icon {
     position: absolute;
-    top: 83px;
+    top: 55px;
     left: 0;
     padding: 6px 9px;
   }
   .form__input .eye__icon {
     position: absolute;
-    top: 83px;
+    top: 55px;
     right: 12px;
     padding: 6px 9px;
   }
@@ -87,6 +96,7 @@
   .forget {
     text-align: right;
     margin-top: 0;
+    font-size: 0.7rem;
   }
   
   .signin__button {
@@ -95,14 +105,16 @@
     border: none;
     border-radius: 8px;
     color: #ffffff;
-    padding: 1rem 0;
+    padding: 8px 0;
     font-weight: bold;
+    font-size: 0.8rem;
     box-shadow: 0px 14px 24px rgba(84, 55, 211, 0.1);
   }
   
   .signup {
       text-align: center;
       margin: 1rem 0;
+      font-size: 0.8rem;
       span{
         color: #5437d3;
       }
